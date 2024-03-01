@@ -3,15 +3,15 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 
 group :heroku do
-  gem 'unicorn'
+  gem 'unicorn', '>= 5.1.0'
   gem 'rails_12factor'
 end
 
-gem 'rails', '~> 3.2'
+gem 'rails', '~> 7.0', '>= 7.0.8.1'
 
 gem 'authlogic'
-gem 'omniauth'
-gem 'omniauth-facebook'
+gem 'omniauth', '>= 1.3.2'
+gem 'omniauth-facebook', '>= 4.0.0'
 
 gem 'mime-types', :require => 'mime/types'
 gem 'carrierwave', '~> 0.6.1'
