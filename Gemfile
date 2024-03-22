@@ -7,7 +7,7 @@ group :heroku do
   gem 'rails_12factor'
 end
 
-gem 'rails', '~> 3.2'
+gem 'rails', '~> 4.0', '>= 4.0.0'
 
 gem 'authlogic'
 gem 'omniauth'
